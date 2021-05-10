@@ -39,7 +39,7 @@
 								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
 								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
 								<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li> 
-								<li class="nav-item"><a target="_blank" class="nav-link" href="https://drive.google.com/file/d/1wFtSMhcIdbsE7DDJBp5Jdzvnx45dlJc1/view?usp=sharing">Resume</a></li> 
+								<li class="nav-item"><a target="_blank" class="nav-link" href="https://drive.google.com/file/d/1YwaOwdT9DwAKVWZm97eH8XDUvQyTio5u/view?usp=sharing">Resume</a></li> 
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							</ul>
 						</div> 
@@ -99,7 +99,32 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+
+                        <form
+                            action="https://formspree.io/f/meqvaqoj"
+                            method="POST"
+                            >
+                            <label >
+                                &emsp; &emsp;&emsp;&emsp;&emsp;Your Email:
+                                <input style="margin-left: 10px;" type="email" name="_replyto" placeholder="Email">
+                            </label>
+                            <br><br>
+                            <label for="textarea" style="vertical-align: middle;">
+                                &emsp;&emsp;&emsp;&emsp;
+                                Your message:
+                                <textarea class="font-control"  style="vertical-align: middle;" id="textarea" name="message" placeholder="Password"></textarea>
+                            </label>
+                            <br><br>
+                            <label>
+                                &emsp;&emsp;&emsp;&emsp;Your Good Name:
+                                <input style="margin-left: 0px;" type="text" name="name" placeholder="Name"></label></input>
+                            </label>
+
+                            <!-- your other form fields go here -->
+                            <br><br>
+                            <button style="margin-left: 210px;" class="btn submit_btn" type="submit">Send</button>
+                        </form>
+                        <!-- <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
@@ -119,7 +144,7 @@
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
@@ -155,7 +180,7 @@
         <!--================End Footer Area =================-->
         
         <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
+        <!-- <div id="success" class="modal modal-message fade" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -167,11 +192,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Modals error -->
 
-        <div id="error" class="modal modal-message fade" role="dialog">
+        <!-- <div id="error" class="modal modal-message fade" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -183,7 +208,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--================End Contact Success and Error message Area =================-->
         
         
